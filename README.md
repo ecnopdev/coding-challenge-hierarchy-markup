@@ -1,5 +1,4 @@
-# coding-challenge-hierarchy-markup
-Coding Challenge - Hierarchy Markup
+# Coding Challenge - Hierarchy Markup
 
 # Problem
 
@@ -86,7 +85,7 @@ displayHeirarchyOnConsole(topLevel,indent){
       topLevel.forEach(person => {
         console.log(`${indent} ${person.name}`);
    
-        if(this.heirarchy.hasOwnProperty(person.id)){
+        if(this.heirarchy[person.id]){
           this.displayHeirarchyOnConsole(this.heirarchy[person.id],`${indent}       |`)
         }
       });
