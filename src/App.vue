@@ -1,4 +1,3 @@
-<!-- Use preprocessors via the lang attribute! e.g. <template lang="pug"> -->
 <template>
   <div id="app">
     <div class="people-container" v-html="heirarchyMarkup"></div>
@@ -9,7 +8,6 @@
 export default {
   data() {
     return {
-      message: "Coding Challenge",
       people: [
         { id: 100, name: "Allan", manager_id: 150 },
         { id: 220, name: "Martin", manager_id: 100 },
@@ -28,9 +26,6 @@ export default {
     this.displayHeirarchyOnPage(this.heirarchy["no_manager"], 0);
   },
   methods: {
-    doSomething() {
-      alert("Hello!");
-    },
     transformToHeirarchical() {
       let heirarchicalData = {};
 
