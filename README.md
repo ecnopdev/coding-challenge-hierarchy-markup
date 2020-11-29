@@ -1,5 +1,12 @@
 # Coding Challenge - Hierarchy Markup
 
+# Demo
+## Netlify 
+https://ecnopdev-coding-challenge-heirarchy-markup.netlify.app/
+
+## Codepen.io
+See Vue Pen -> https://codepen.io/ecnopdev/pen/WNGbdVg
+
 # Problem
 
 Below is employee data of a small company.
@@ -93,12 +100,7 @@ displayHeirarchyOnConsole(topLevel,indent){
 }
 ```
 
-# Demo
-
-## Codepen.io
-See Vue Pen -> https://codepen.io/ecnopdev/pen/WNGbdVg
-
-## Local
+## Local Development
 1. Install node
 2. Install vue-cli
 3. Clone repository
